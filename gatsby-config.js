@@ -20,6 +20,7 @@ module.exports = {
       twitter: `kylemathews`,
     },
   },
+  pathPrefix: `/Crithink`,
   plugins: [
     `gatsby-plugin-image`,
     {

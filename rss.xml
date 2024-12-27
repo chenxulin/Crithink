@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 Dec 2024 10:22:31 GMT</lastBuildDate><item><title><![CDATA[How to active typora]]></title><description><![CDATA[Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</guid><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora没有采用源代码和预览双栏显示的方式，而是采用&lt;strong&gt;所见即所得&lt;/strong&gt;的编辑方式，实现了&lt;strong&gt;即时预览的功能&lt;/strong&gt;。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 Dec 2024 11:34:29 GMT</lastBuildDate><item><title><![CDATA[How to active typora]]></title><description><![CDATA[Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</guid><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora没有采用源代码和预览双栏显示的方式，而是采用&lt;strong&gt;所见即所得&lt;/strong&gt;的编辑方式，实现了&lt;strong&gt;即时预览的功能&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4&gt;下载&lt;/h4&gt;
 &lt;p&gt;根据你的操作系统从官网下载相应版本的typora，安装到电脑上，想装在哪里装在哪里。&lt;/p&gt;
 &lt;ul&gt;
@@ -50,7 +50,20 @@
         decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[论人类不平等的起源和基础]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/论人类不平等的起源和基础/text/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/论人类不平等的起源和基础/text/</guid><pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;谁第一个将土地圈起来，胆敢说“这是我的”，并且能够找到一些十分天真的人相信他，谁就是文明社会真正的奠基者。假如这时有人拔掉木桩，填平沟壑，并且向他的同类大声呼吁：“不要听信这个骗子的话，如果你们忘记果实为大家所有，而土地不属于任何人，你们就全完了！”那么，人类可以避免多少罪恶、战争、谋杀、苦难和暴行啊！&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;使用&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;markdown语法，出门左转，自学成才。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;危险警告：不要花时间在选择主题上，不然你就会遇到和我一样的情况。这个主题好看，用一下，欸，这个主题也不错，再用一下。时间过去了，啥活也没干。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;此间乐，不思work&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;好了，已经在主题调试以及写这篇文档上浪费好几个小时了，实在不能再跟着感觉走了，到此，完毕。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[论人类不平等的起源和基础]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/论人类不平等的起源和基础/text/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/论人类不平等的起源和基础/text/</guid><pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;谁第一个将土地圈起来，胆敢说“这是我的”，并且能够找到一些十分天真的人相信他，谁就是文明社会真正的奠基者。假如这时有人拔掉木桩，填平沟壑，并且向他的同类大声呼吁：“不要听信这个骗子的话，如果你们忘记果实为大家所有，而土地不属于任何人，你们就全完了！”那么，人类可以避免多少罪恶、战争、谋杀、苦难和暴行啊！&lt;/p&gt;
 &lt;p&gt;上面这一段文字是用于测试的文字，文字摘录自《论人类不平等的起源和基础》，作者：让·雅克·卢梭。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaSE]]></title><description><![CDATA[JavaSE Language Basics The rules and conventions of naming the name are case-sensitive and not be a keyword or reserved word. white space is…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/test/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/test/</guid><pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;JavaSE&lt;/h2&gt;
 &lt;h2&gt;Language Basics&lt;/h2&gt;
 &lt;ul&gt;

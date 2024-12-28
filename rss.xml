@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Dec 2024 07:46:45 GMT</lastBuildDate><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git Git下载安装、环境配置网上教程非常详细，出门左转，请自学，本文档不再介绍。 需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Dec 2024 10:48:32 GMT</lastBuildDate><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git Git下载安装、环境配置网上教程非常详细，出门左转，请自学，本文档不再介绍。 需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
 &lt;h2&gt;Git&lt;/h2&gt;
 &lt;p&gt;Git下载安装、环境配置网上教程非常详细，出门左转，请自学，本文档不再介绍。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -109,7 +109,7 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;h4&gt;激活&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;方法一：尊重版权，支持正版，89元解君愁。&lt;/li&gt;
-&lt;li&gt;方法二：科技与狠活，物美价零，狠狠的0元购。
+&lt;li&gt;方法二：科技狠活，物美价零，狠狠0元购。
 &lt;ul&gt;
 &lt;li&gt;下载激活工具：&lt;a href=&quot;https://pan.baidu.com/s/1CDbgbTrIWfvA_TKBeYmFUA?pwd=8c6n&quot;&gt;active tool&lt;/a&gt;(百度网盘提取码：8c6n)&lt;/li&gt;
 &lt;li&gt;将active tool中的两个exe文件放入typora的安装目录下（例如我的安装目录是：D:\Typera）&lt;/li&gt;

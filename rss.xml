@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Dec 2024 04:36:42 GMT</lastBuildDate><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git 本章节介绍Git的基本知识、Git下载安装、环境配置。 首先需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Dec 2024 06:24:08 GMT</lastBuildDate><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git 本章节介绍Git的基本知识、Git下载安装、环境配置。 首先需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
 &lt;h2&gt;Git&lt;/h2&gt;
 &lt;p&gt;本章节介绍Git的基本知识、Git下载安装、环境配置。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -13,7 +13,7 @@
 &lt;p&gt;GitHub有两种常用的使用场景，一是从GitHub上下载项目到本地（以便于自己学习该项目或者在该项目的基础上做二次开发），二是把本地项目上传到GitHub（如果你没有自己的Git服务器的话）。本节先介绍&lt;strong&gt;如何从GitHub上下载项目&lt;/strong&gt;，再介绍&lt;strong&gt;如何把本地项目上传到GitHub&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;如何从GitHub上下载项目&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如何从GitHub上下载项目&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;把一个项目从GitHub上下载到本地，采用以下的步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -53,13 +53,37 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;如何把本地项目上传到GitHub&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如何把本地项目上传到GitHub&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;把一个本地项目上传到GitHub中，采用以下步骤：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先需要建立一个GitHub远端仓库，GitHub主页 -&gt; 找到并点击按钮New -&gt; 输入必填字段仓库名(Repository name) -&gt;拉到页面最下面点击&lt;strong&gt;Create repository&lt;/strong&gt; ，其他选项使用默认设置。这样就建立好一个名叫XX的GitHub仓库了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：也可以不用默认设置，自己进行配置。每个选项有什么功能请自学。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;找到&lt;strong&gt;本地项目&lt;/strong&gt;所在的那个文件夹，右键单击该文件夹，打开Open Git Bash Here终端界面，执行下面的操作。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.初始化仓库：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init 指令后回车，初始化本地仓库，便于后续进行仓库管理
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.项目文件放入暂存区：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--all&lt;/span&gt; 指令后回车
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.暂存区的文件放入本地仓库：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;这里写你想写的注释&apos;&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.建立本地仓库与GitHub仓库的连接：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;你自己创建的仓库URL&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;例：git remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; orgin https://github.com/chenxulin/git-practice.git&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;.把本地项目提交到GitHub上：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push &lt;span class=&quot;token parameter variable&quot;&gt;-u&lt;/span&gt; orgin master
+
+依次按顺序完成以上步骤，把一个本地项目上传到你准备好的GitHub仓库中了&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以C:\Users\chenqijun\Desktop\Files\study\git-practice-upload为例，即右键单击git-practice-upload，打开Open Git Bash Here终端界面，然后进行上述操作。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。又到了胡言乱语的时刻，我想说的是：&lt;strong&gt;千里之行，始于CV&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4&gt;Git仓库的建立&lt;/h4&gt;
 &lt;h4&gt;Git管理文件&lt;/h4&gt;
 &lt;h2&gt;多分支协作开发&lt;/h2&gt;
-&lt;p&gt;在实际项目的开发过程中，个人的力量总是有限的，一个大型的项目往往需要多位开发者协作完成，为了使得每位开发者提交代码的过程不至于相互发生冲突而产生混乱，每一位开发者都会在属于自己的分支上进行开发，最后把各自开发的结果合并起来，这就是多分支协作开发。本章节介绍多分支协作开发。&lt;/p&gt;
+&lt;p&gt;在实际项目的开发过程中，个人的力量总是有限的，一个大型的项目往往需要多位开发者协作完成，为了使得每位开发者提交代码的过程不至于相互发生冲突而产生混乱，每一位开发者都会在属于自己的分支上进行开发，最后把各自开发的结果合并起来，这就是多分支协作开发。本章节以一种多分支开发规范来介绍多分支协作开发。&lt;/p&gt;
 &lt;h2&gt;GitHub&lt;/h2&gt;
 &lt;p&gt;本章节介绍GitHub的一些其他功能。&lt;/p&gt;
 &lt;h2&gt;拾遗&lt;/h2&gt;

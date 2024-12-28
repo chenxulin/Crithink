@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Dec 2024 06:36:09 GMT</lastBuildDate><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git 本章节介绍Git的基本知识、Git下载安装、环境配置。 首先需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Dec 2024 07:05:29 GMT</lastBuildDate><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git 本章节介绍Git的基本知识、Git下载安装、环境配置。 首先需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
 &lt;h2&gt;Git&lt;/h2&gt;
 &lt;p&gt;本章节介绍Git的基本知识、Git下载安装、环境配置。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -8,7 +8,7 @@
 &lt;h4&gt;Git下载安装&lt;/h4&gt;
 &lt;h4&gt;Git环境配置&lt;/h4&gt;
 &lt;h2&gt;从零开始使用Git&lt;/h2&gt;
-&lt;p&gt;Git下载、安装、环境配置完成后，本章节介绍GitHub的使用、Git仓库的建立、 Git管理文件。&lt;/p&gt;
+&lt;p&gt;Git下载、安装、环境配置完成后，本章节介绍GitHub的使用、Git管理文件。&lt;/p&gt;
 &lt;h4&gt;GitHub的使用&lt;/h4&gt;
 &lt;p&gt;GitHub有两种常用的使用场景，一是从GitHub上下载项目到本地（以便于自己学习该项目或者在该项目的基础上做二次开发），二是把本地项目上传到GitHub（如果你没有自己的Git服务器的话）。本节先介绍&lt;strong&gt;如何从GitHub上下载项目&lt;/strong&gt;，再介绍&lt;strong&gt;如何把本地项目上传到GitHub&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
@@ -54,10 +54,10 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;如何把本地项目上传到GitHub&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;把一个本地项目上传到GitHub中，采用以下步骤：&lt;/p&gt;
+&lt;p&gt;把一个本地项目上传到自己的GitHub上，采用以下步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;首先需要建立一个GitHub远端仓库，GitHub主页 -&gt; 找到并点击按钮New -&gt; 输入必填字段仓库名(Repository name) -&gt;拉到页面最下面点击&lt;strong&gt;Create repository&lt;/strong&gt; ，其他选项使用默认设置。这样就建立好一个名叫XX的GitHub仓库了。&lt;/p&gt;
+&lt;p&gt;首先需要建立一个GitHub远端仓库，进入你的GitHub主页 -&gt; 找到并点击按钮New -&gt; 输入&lt;strong&gt;必填字段&lt;/strong&gt;仓库名(Repository name) -&gt;拉到页面最下面点击&lt;strong&gt;Create repository&lt;/strong&gt; ，其他选项使用默认设置。这样就建立好一个名叫XX的GitHub仓库了。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注：也可以不用默认设置，自己进行配置。每个选项有什么功能请自学。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -81,14 +81,24 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 依次按顺序完成以上步骤，把一个本地项目上传到你准备好的GitHub仓库中了&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。&lt;/p&gt;
 &lt;p&gt;又到了胡言乱语的时刻，我想说的是：&lt;strong&gt;千里之行，始于CV&lt;/strong&gt;。&lt;/p&gt;
-&lt;h4&gt;Git仓库的建立&lt;/h4&gt;
 &lt;h4&gt;Git管理文件&lt;/h4&gt;
 &lt;h2&gt;多分支协作开发&lt;/h2&gt;
 &lt;p&gt;在实际项目的开发过程中，个人的力量总是有限的，一个大型的项目往往需要多位开发者协作完成，为了使得每位开发者提交代码的过程不至于相互发生冲突而产生混乱，每一位开发者都会在属于自己的分支上进行开发，最后把各自开发的结果合并起来，这就是多分支协作开发。本章节以一种多分支开发规范来介绍多分支协作开发。&lt;/p&gt;
 &lt;h2&gt;GitHub&lt;/h2&gt;
 &lt;p&gt;本章节介绍GitHub的一些其他功能。&lt;/p&gt;
 &lt;h2&gt;拾遗&lt;/h2&gt;
-&lt;p&gt;本章节介绍一些即使不懂也不影响使用的知识点。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to active typora]]></title><description><![CDATA[Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</guid><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora没有采用源代码和预览双栏显示的方式，而是采用&lt;strong&gt;所见即所得&lt;/strong&gt;的编辑方式，实现了&lt;strong&gt;即时预览的功能&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;上面介绍了作者学习过程中所用到的各种Git操作，拾遗应该写一些不那么重要的内容。&lt;/p&gt;
+&lt;p&gt;这些内容不学也不影响使用，既然不影响使用，那大概率不写。&lt;/p&gt;
+&lt;p&gt;因为懒，特么都不影响我使用，我学个鬼，让我继续留在黑暗中吧。&lt;/p&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAMBAgQF/8QAGAEAAgMAAAAAAAAAAAAAAAAAAgMAAQT/2gAMAwEAAhADEAAAAfFvDCKrBzjIXXYGpf8A/8QAHBAAAgICAwAAAAAAAAAAAAAAAAECERIhIzFB/9oACAEBAAEFArbIrhPMpC2WzJi6/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwFmjn//xAAXEQADAQAAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/AasP/8QAGhAAAgIDAAAAAAAAAAAAAAAAARAAISAiMf/aAAgBAQAGPwKHW8LK6V//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhQWEx4f/aAAgBAQABPyFurvkG7K2HcqpWpGsLcFHIKXleQAwpH6085//aAAwDAQACAAMAAAAQdO/B/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQAQMSH/2gAIAQMBAT8QSPabjs//xAAXEQEBAQEAAAAAAAAAAAAAAAABADEh/9oACAECAQE/EHCHk4WV/8QAHRABAAMAAwADAAAAAAAAAAAAAQARITFRgUGhwf/aAAgBAQABPxA9IqtoG+SxAhxvkH7LYVExJe1i1UVVQgL4N57sy8IvJhoEr4YheztPqz//2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;inDark&quot; title=&quot;&quot; src=&quot;/Crithink/static/0175195efbd62bbee5366ef294ef6f25/828fb/inDark.jpg&quot; srcset=&quot;/Crithink/static/0175195efbd62bbee5366ef294ef6f25/ff44c/inDark.jpg 158w,
+/Crithink/static/0175195efbd62bbee5366ef294ef6f25/a6688/inDark.jpg 315w,
+/Crithink/static/0175195efbd62bbee5366ef294ef6f25/828fb/inDark.jpg 630w,
+/Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg 720w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;</content:encoded></item><item><title><![CDATA[How to active typora]]></title><description><![CDATA[Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</guid><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora没有采用源代码和预览双栏显示的方式，而是采用&lt;strong&gt;所见即所得&lt;/strong&gt;的编辑方式，实现了&lt;strong&gt;即时预览的功能&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4&gt;下载&lt;/h4&gt;
 &lt;p&gt;根据你的操作系统从官网下载相应版本的typora，安装到电脑上，想装在哪里装在哪里。&lt;/p&gt;
 &lt;ul&gt;

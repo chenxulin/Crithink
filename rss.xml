@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Dec 2024 13:00:30 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Dec 2024 14:15:23 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
 &lt;p&gt;不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：&lt;a href=&quot;https://www.cutecloud.net/&quot;&gt;https://www.cutecloud.net/&lt;/a&gt; ，这个网站可能需要外网才能访问，也可能不需要，这个看运气。不能直接打开就需要先连接外网再访问，如果直接能打开，就采取以下步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;账号注册和下载安装：账号注册并登录 -&gt; 进入控制台左侧仪表盘，下拉找到客户端下载的位置，有Windows版、Android版等，根据你想下载的版本进行安装，安装完成后进行登录。&lt;/li&gt;
@@ -38,9 +38,7 @@
 &lt;p&gt;Git下载、安装、环境配置完成后，本章节介绍GitHub的使用、Git管理文件。&lt;/p&gt;
 &lt;h4&gt;GitHub的使用&lt;/h4&gt;
 &lt;p&gt;GitHub有两种常用的使用场景，一是从GitHub上下载项目到本地（以便于自己学习该项目或者在该项目的基础上做二次开发），二是把本地项目上传到GitHub（如果你没有自己的Git服务器的话）。本节先介绍&lt;strong&gt;如何从GitHub上下载项目&lt;/strong&gt;，再介绍&lt;strong&gt;如何把本地项目上传到GitHub&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;如何从GitHub上下载项目&lt;/strong&gt;&lt;/p&gt;
+&lt;h6&gt;&lt;strong&gt;如何从GitHub上下载项目&lt;/strong&gt;&lt;/h6&gt;
 &lt;p&gt;把一个项目从GitHub上下载到本地，采用以下的步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -73,14 +71,12 @@ remote: Total &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span
 Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;/3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;, done.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;终端界面如上，就说明已经把该项目从GitHub上克隆到本地目录中了，打开本地你准备好的目录即可看到该项目。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;克隆好后就可以使用开发工具（如IDEA、VS Code等）对下载的项目进行学习或者二次开发了。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;如何把本地项目上传到GitHub&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;克隆好后就可以使用开发工具（如IDEA、VS Code等）对下载的项目进行学习或者二次开发了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6&gt;&lt;strong&gt;如何把本地项目上传到GitHub&lt;/strong&gt;&lt;/h6&gt;
 &lt;p&gt;把一个本地项目上传到自己的GitHub上，采用以下步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -96,8 +92,6 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.初始化仓库：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init 指令后回车，初始化本地仓库，便于后续进行仓库管理
 &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.项目文件放入暂存区：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--all&lt;/span&gt; 指令后回车
 &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.暂存区的文件放入本地仓库：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;这里写你想写的注释&apos;&lt;/span&gt;
@@ -109,7 +103,7 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;p&gt;学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。最后是必不可少（有时可以少）的胡言乱语时刻，我想说的是：&lt;strong&gt;千里之行，始于CV&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4&gt;Git管理文件（以Windows系统为例）&lt;/h4&gt;
-&lt;h6&gt;git基本操作&lt;/h6&gt;
+&lt;h6&gt;git提交项目到本地仓库&lt;/h6&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;对项目开始进行版本控制管理&lt;/p&gt;
@@ -156,24 +150,80 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;p&gt;这条指令十分有用，比如查看暂存区有哪些文件未加到暂存区，哪些文件未提交等。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h6&gt;使用git mv命令修改文件名&lt;/h6&gt;
 &lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;使用git rm命令删除文件&lt;/li&gt;
-&lt;li&gt;使用git mv命令修改文件名&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h6&gt;commit记录&lt;/h6&gt;
+&lt;h6&gt;Git删除文件与找回文件&lt;/h6&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;查看commit记录&lt;/p&gt;
+&lt;p&gt;使用git rm命令删除文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用git checkout找回删除的文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;commit记录&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;查看commit记录的常用指令&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log     // 查看完整commit记录
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; // 精简版commit，一行一条commit记录
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--graph&lt;/span&gt;  // 有点好看的完整commit记录
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--graph&lt;/span&gt; // 既精简又好看的一行commit记录&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;commit记录中包括：一串十六进制数、作者（Author）、时间（Date）、注释。&lt;/p&gt;
+&lt;p&gt;commit记录中包括：一串十六进制数、作者（Author）、时间（Date）、注释。例如：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;* commit 841458cebfb2023501574637d2bf8696e2948097 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;HEAD -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; upload, upload/upload&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Author: chenxulin &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1011468693&lt;/span&gt;@qq.com&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; Date:   Sun Dec &lt;span class=&quot;token number&quot;&gt;29&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;20&lt;/span&gt;:32:21 &lt;span class=&quot;token number&quot;&gt;2024&lt;/span&gt; +0800
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; src/test3.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这串十六进制数姑且看做这条记录的唯一标识好了，虽然可能并不唯一，但不唯一的几率极小。因为不影响使用，感兴趣请自学。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按开发者名查询commit记录&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--author&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;xxx&apos;&lt;/span&gt; // 查询某位开发者的提交记录
+
+例如：git log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--author&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;chenxulin&apos;&lt;/span&gt; 指令
+终端上的输出如下：
+841458c &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;HEAD -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; upload, upload/upload&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; src/test3.txt
+&lt;span class=&quot;token number&quot;&gt;7914301&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;upload/master, origin/master, origin/HEAD, master&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; directory
+75e78e8 first commit
+
+当然不同的提交记录有不同的输出，这里只是举例用。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;查找某一时间段的commit记录&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;// 找出今天从上午9点到上午12点之间所有人的commit
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--since&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;9am&apos;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--until&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;12am&apos;&lt;/span&gt;
+// 找出从2021年后，每天上午9点到上午12点之间所有人的commit
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--since&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;9am&apos;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--until&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;12am&apos;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--after&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;2021&apos;&lt;/span&gt;
+
+例如：作者在终端上输入
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--since&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;13pm&apos;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--until&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;20pm&apos;&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--after&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;2023&apos;&lt;/span&gt;
+终端上会显示：
+&lt;span class=&quot;token number&quot;&gt;7914301&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;upload/master, origin/master, origin/HEAD, master&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; directory
+75e78e8 first commit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;查询某个具体文件的commit记录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;找出某行代码是谁写的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;修改commit记录的注释&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;擦除掉某条commit记录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;合并多个commit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把单个commit拆分成多个commit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;commit间顺序调整&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;多分支协作开发&lt;/h2&gt;

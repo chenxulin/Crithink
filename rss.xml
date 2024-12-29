@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Dec 2024 10:48:32 GMT</lastBuildDate><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git Git下载安装、环境配置网上教程非常详细，出门左转，请自学，本文档不再介绍。 需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Dec 2024 10:28:15 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
+&lt;p&gt;不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：&lt;a href=&quot;https://www.cutecloud.net/%EF%BC%8C%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E5%A4%96%E7%BD%91%E6%89%8D%E8%83%BD%E8%AE%BF%E9%97%AE%EF%BC%8C%E4%B9%9F%E5%8F%AF%E8%83%BD%E4%B8%8D%E9%9C%80%E8%A6%81%EF%BC%8C%E8%BF%99%E4%B8%AA%E7%9C%8B%E8%BF%90%E6%B0%94%E3%80%82%E4%B8%8D%E8%83%BD%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E5%B0%B1%E9%9C%80%E8%A6%81%E5%85%88%E8%BF%9E%E6%8E%A5%E5%A4%96%E7%BD%91%E5%86%8D%E8%AE%BF%E9%97%AE%EF%BC%8C%E5%A6%82%E6%9E%9C%E7%9B%B4%E6%8E%A5%E8%83%BD%E6%89%93%E5%BC%80%EF%BC%8C%E5%B0%B1%E9%87%87%E5%8F%96%E4%BB%A5%E4%B8%8B%E6%AD%A5%E9%AA%A4%EF%BC%9A&quot;&gt;https://www.cutecloud.net/，这个网站可能需要外网才能访问，也可能不需要，这个看运气。不能直接打开就需要先连接外网再访问，如果直接能打开，就采取以下步骤：&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;账号注册和下载安装：账号注册并登录 -&gt; 进入控制台左侧仪表盘，下拉找到客户端下载的位置，有Windows版、Android版等，根据你想下载的版本进行安装，安装完成后进行登录。&lt;/li&gt;
+&lt;li&gt;套餐购买：进入控制台购买订阅，分为两种，按月付套餐和永久套餐，不同级别有不同的功能，不做具体介绍。本人购买的是10r/月的，并且本人建议按月购买，因为VPN运营商极容易跑路，至于什么套餐根据自己的需要自行购买。&lt;/li&gt;
+&lt;li&gt;使用：&lt;strong&gt;打开软件界面，点击连接即可使用&lt;/strong&gt;。下面介绍一下首页两个功能，其余功能自行探索。
+&lt;ul&gt;
+&lt;li&gt;切换服务器：有时候某个节点卡顿，就需要切换到网速快的节点。点击切换按钮 -&gt; 延迟测试 -&gt; 选择延迟较小的节点&lt;/li&gt;
+&lt;li&gt;代理模式：分为规则模式和全局模式，规则模式是内网的流量走内网，外网的流量通过代理访问。全局模式是无论什么流量都通过代理访问。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CuteCloud的优势就是VPN运营商直接提供软件，用起来简单方便，劣势就是运营商跑路了这个软件就无法使用了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当然也可以自行选用其他代理软件，例如：我手机和电脑用的Clash，iPad用的Shadowrocket。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那么，如果不能直接进入CuteCloud官网，但又需要在Windows电脑上使用用，怎么办呢？按以下步骤进行：&lt;/p&gt;
+&lt;p&gt;1.直接下载这个应用并打开：&lt;a href=&quot;https://wwwccdl.lanzouk.com/ixKPw2hb6rqf&quot;&gt;https://wwwccdl.lanzouk.com/ixKPw2hb6rqf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.找到一个有账号人，登入他的账号，然后连接，就有外网了。&lt;/p&gt;
+&lt;p&gt;3.连上外网后，就可以进行注册账号、购买套餐、使用等步骤了。&lt;/p&gt;
+&lt;h2&gt;GPT账号注册和使用&lt;/h2&gt;
+&lt;p&gt;连接好VPN之后，打开ChatGPT网址进行账号注册：&lt;a href=&quot;https://chatgpt.com/%EF%BC%8C%E5%8F%B3%E4%B8%8A%E8%A7%92%E7%82%B9%E5%87%BB%E6%B3%A8%E5%86%8C%E6%8C%89%E9%92%AE%E5%AE%8C%E6%88%90%E6%B3%A8%E5%86%8C%E3%80%82&quot;&gt;https://chatgpt.com/，右上角点击注册按钮完成注册。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用GPT需要&lt;strong&gt;google账号/Microsoft账号/Apple&lt;/strong&gt;账号三个中至少有其中一个账号，其中Microsoft和Apple账号是在国内容易获得的，Google账号的注册比较麻烦。为了减少麻烦，我推荐用Microsoft账号或者Apple账号，有Windows电脑或iPad的用户肯定是有这两个账号的。注册登录完成后就可以使用了。&lt;/p&gt;
+&lt;p&gt;多账号的好处是：GPT免费版每天是有询问次数限制的，具体多少次我也不知道。如果有多账户就可以使用不同账号进行询问。付费版分为Plus版20刀/月和Pro版200刀/月，没体验过，情况不明。&lt;/p&gt;
+&lt;h2&gt;Zlibrary&lt;/h2&gt;
+&lt;p&gt;这个网站是一个全球最大的&lt;strong&gt;免费获取电子书网站&lt;/strong&gt;，各种领域的电子书和教材PDF基本都有，需要访问外网，进行注册登录后才能使用，每人每天可以下载10本。&lt;/p&gt;
+&lt;p&gt;官方的网址是：&lt;a href=&quot;https://z-library.sk/%E3%80%82%E5%A6%82%E6%9E%9C%E9%9C%80%E8%A6%81%E7%9C%8B%E5%90%84%E7%A7%8D%E5%90%84%E6%A0%B7%E7%9A%84%E7%94%B5%E5%AD%90%E7%89%88%E6%95%99%E6%9D%90%E6%88%96%E8%80%85%E5%85%B6%E4%BB%96%E7%94%B5%E5%AD%90%E4%B9%A6%E9%83%BD%E5%8F%AF%E4%BB%A5%E5%8E%BB%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E6%A3%80%E7%B4%A2%E8%AF%95%E8%AF%95%E3%80%82&quot;&gt;https://z-library.sk/。如果需要看各种各样的电子版教材或者其他电子书都可以去这个网站检索试试。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一般来说不会失效，如果失效则需要通过维基百科的Zlibrary词条进行访问，方法是：连接外网后浏览器检索Zlibray维基百科点进去，里面就能够找到网站了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：有很多钓鱼网站，钓鱼网站的特点是付费且资料少，直接检索大概率是钓鱼网站。&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[How to use Git]]></title><description><![CDATA[Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。 Git Git下载安装、环境配置网上教程非常详细，出门左转，请自学，本文档不再介绍。 需要指明的是，GitHub不等于Git。GitHub…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/How to use Git/Git/</guid><pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Git 是一款十分好用的分布式版本控制工具，作为一名开发者，无论你喜不喜欢它，你都不能离开它，也不能不学习它。&lt;/p&gt;
 &lt;h2&gt;Git&lt;/h2&gt;
 &lt;p&gt;Git下载安装、环境配置网上教程非常详细，出门左转，请自学，本文档不再介绍。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -76,16 +106,45 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;.把本地项目提交到GitHub上：输入 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push &lt;span class=&quot;token parameter variable&quot;&gt;-u&lt;/span&gt; orgin master
 
 依次按顺序完成以上步骤，把一个本地项目上传到你准备好的GitHub仓库中了&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。&lt;/p&gt;
-&lt;p&gt;又到了胡言乱语的时刻，我想说的是：&lt;strong&gt;千里之行，始于CV&lt;/strong&gt;。&lt;/p&gt;
-&lt;h4&gt;Git管理文件&lt;/h4&gt;
+&lt;p&gt;学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。最后是必不可少（有时可以少）的胡言乱语时刻，我想说的是：&lt;strong&gt;千里之行，始于CV&lt;/strong&gt;。&lt;/p&gt;
+&lt;h4&gt;Git管理文件（以Windows系统为例）&lt;/h4&gt;
+&lt;h6&gt;git版本控制&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;对项目开始进行版本控制管理&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init   // 初始化仓库指令&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这条指令实质上就是在项目所在文件夹里建立了一个.git的目录文件，Git版本控制就是依靠.git目录进行的。在对整个项目进行版本控制时，无论哪个文件或目录被删除了都能够找回来，但如果.git目录被删除了就没办法找回来了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;.git文件默认被windows系统隐藏了，看不见是正常的，也可以把它显示出来（打开我的电脑 -&gt; 点查看 -&gt; 点显示 -&gt;点击勾选隐藏的项目）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将某个文件或者目录提交至暂存区&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; 文件名   // 例如：git &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; hello.md 就是将hello.md文件放入暂存区
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; 目录名   // 例如：git &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; static 就是将static目录下的所有文件放入暂存区
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; *.后缀名 // 例如：git &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; *.html 就是将此目录下的所有以html结尾的文件放入暂存区
+
+// Git &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.x后，下面git &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; --all和git &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; .用法是一样的。古老的版本的区别请自学
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--all&lt;/span&gt;   // 将所有文件和文件夹加入暂存区
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;       // 将所有文件和文件夹加入暂存区&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;以上是一些基本用法，设想一种特别的情况，如果你用git add 把某个文件加入暂存区，但还未commit到本地仓库，这时你改动了你add的文件，新手可能会直接commit，但这样是错误的，你需要重新git add这个文件，再commit。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;将暂存区的文件或目录提交（commit）到本地仓库&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;注释&apos;&lt;/span&gt;  // 将暂存区的文件或者目录全部送到本地仓库&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;git commit -m  &apos;注释&apos; 只是把暂存区的文件或者目录送到了本地仓库，那些还未通过git add 送入暂存区的文件并不会被提交到本地仓库。一次commit会产生一条提交记录，git可以通过这些记录来进行回溯。&lt;/p&gt;
+&lt;p&gt;注释是必要的，不加注释是没法commit的。进行注释可以让其他人知道这些文件进行了什么样的改动。注释内容要求简洁，清晰，有逻辑。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;多分支协作开发&lt;/h2&gt;
 &lt;p&gt;在实际项目的开发过程中，个人的力量总是有限的，一个大型的项目往往需要多位开发者协作完成，为了使得每位开发者提交代码的过程不至于相互发生冲突而产生混乱，每一位开发者都会在属于自己的分支上进行开发，最后把各自开发的结果合并起来，这就是多分支协作开发。本章节以一种多分支开发规范来介绍多分支协作开发。&lt;/p&gt;
 &lt;h2&gt;GitHub&lt;/h2&gt;
 &lt;p&gt;本章节介绍GitHub的一些其他功能。&lt;/p&gt;
 &lt;h2&gt;拾遗&lt;/h2&gt;
 &lt;p&gt;上面介绍了作者学习过程中所用到的各种Git操作，拾遗应该写一些不那么重要的内容。&lt;/p&gt;
-&lt;p&gt;这些内容不学也不影响使用，既然不影响使用，那大概率不写。&lt;/p&gt;
+&lt;p&gt;但这些内容不学也不影响使用，既然不影响使用，那大概率不写，不，是肯定。&lt;/p&gt;
 &lt;p&gt;因为懒，特么都不影响我使用，我学个鬼，让我继续留在黑暗中吧。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;

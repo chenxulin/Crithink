@@ -77,16 +77,45 @@ Receiving objects: <span class="token number">100</span>% <span class="token pun
 <span class="token number">5</span>.把本地项目提交到GitHub上：输入 <span class="token function">git</span> push <span class="token parameter variable">-u</span> orgin master
 
 依次按顺序完成以上步骤，把一个本地项目上传到你准备好的GitHub仓库中了</code></pre></div>
-<p>学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。</p>
-<p>又到了胡言乱语的时刻，我想说的是：<strong>千里之行，始于CV</strong>。</p>
-<h4>Git管理文件</h4>
+<p>学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。最后是必不可少（有时可以少）的胡言乱语时刻，我想说的是：<strong>千里之行，始于CV</strong>。</p>
+<h4>Git管理文件（以Windows系统为例）</h4>
+<h6>git版本控制</h6>
+<ul>
+<li>
+<p>对项目开始进行版本控制管理</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">git</span> init   // 初始化仓库指令</code></pre></div>
+<p>这条指令实质上就是在项目所在文件夹里建立了一个.git的目录文件，Git版本控制就是依靠.git目录进行的。在对整个项目进行版本控制时，无论哪个文件或目录被删除了都能够找回来，但如果.git目录被删除了就没办法找回来了。</p>
+<blockquote>
+<p>.git文件默认被windows系统隐藏了，看不见是正常的，也可以把它显示出来（打开我的电脑 -> 点查看 -> 点显示 ->点击勾选隐藏的项目）。</p>
+</blockquote>
+</li>
+<li>
+<p>将某个文件或者目录提交至暂存区</p>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">git</span> <span class="token function">add</span> 文件名   // 例如：git <span class="token function">add</span> hello.md 就是将hello.md文件放入暂存区
+<span class="token function">git</span> <span class="token function">add</span> 目录名   // 例如：git <span class="token function">add</span> static 就是将static目录下的所有文件放入暂存区
+<span class="token function">git</span> <span class="token function">add</span> *.后缀名 // 例如：git <span class="token function">add</span> *.html 就是将此目录下的所有以html结尾的文件放入暂存区
+
+// Git <span class="token number">2</span>.x后，下面git <span class="token function">add</span> --all和git <span class="token function">add</span> .用法是一样的。古老的版本的区别请自学
+<span class="token function">git</span> <span class="token function">add</span> <span class="token parameter variable">--all</span>   // 将所有文件和文件夹加入暂存区
+<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>       // 将所有文件和文件夹加入暂存区</code></pre></div>
+<p>以上是一些基本用法，设想一种特别的情况，如果你用git add 把某个文件加入暂存区，但还未commit到本地仓库，这时你改动了你add的文件，新手可能会直接commit，但这样是错误的，你需要重新git add这个文件，再commit。</p>
+<ul>
+<li>
+<p>将暂存区的文件或目录提交（commit）到本地仓库</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">'注释'</span>  // 将暂存区的文件或者目录全部送到本地仓库</code></pre></div>
+<p>git commit -m  '注释' 只是把暂存区的文件或者目录送到了本地仓库，那些还未通过git add 送入暂存区的文件并不会被提交到本地仓库。一次commit会产生一条提交记录，git可以通过这些记录来进行回溯。</p>
+<p>注释是必要的，不加注释是没法commit的。进行注释可以让其他人知道这些文件进行了什么样的改动。注释内容要求简洁，清晰，有逻辑。</p>
+</li>
+</ul>
 <h2>多分支协作开发</h2>
 <p>在实际项目的开发过程中，个人的力量总是有限的，一个大型的项目往往需要多位开发者协作完成，为了使得每位开发者提交代码的过程不至于相互发生冲突而产生混乱，每一位开发者都会在属于自己的分支上进行开发，最后把各自开发的结果合并起来，这就是多分支协作开发。本章节以一种多分支开发规范来介绍多分支协作开发。</p>
 <h2>GitHub</h2>
 <p>本章节介绍GitHub的一些其他功能。</p>
 <h2>拾遗</h2>
 <p>上面介绍了作者学习过程中所用到的各种Git操作，拾遗应该写一些不那么重要的内容。</p>
-<p>这些内容不学也不影响使用，既然不影响使用，那大概率不写。</p>
+<p>但这些内容不学也不影响使用，既然不影响使用，那大概率不写，不，是肯定。</p>
 <p>因为懒，特么都不影响我使用，我学个鬼，让我继续留在黑暗中吧。</p>
 <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; ">
       <a class="gatsby-resp-image-link" href="/Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg" style="display: block" target="_blank" rel="noopener">
@@ -96,7 +125,7 @@ Receiving objects: <span class="token number">100</span>% <span class="token pun
 /Crithink/static/0175195efbd62bbee5366ef294ef6f25/828fb/inDark.jpg 630w,
 /Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg 720w" sizes="(max-width: 630px) 100vw, 630px" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;" loading="lazy" decoding="async">
   </a>
-    </span></section><hr/><footer><div class="bio"><div data-gatsby-image-wrapper="" style="width:50px;height:50px" class="gatsby-image-wrapper bio-avatar"><div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#f8f8f8;width:50px;height:50px;position:relative"></div><picture><source type="image/avif" data-srcset="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d4bf4/profile-pic.avif 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" data-srcset="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/3faea/profile-pic.webp 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" data-src="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg" data-srcset="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/64618/profile-pic.jpg 100w" alt="Profile picture"/></picture><noscript><picture><source type="image/avif" srcSet="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d4bf4/profile-pic.avif 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" srcSet="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/3faea/profile-pic.webp 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" src="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg" srcSet="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/64618/profile-pic.jpg 100w" alt="Profile picture"/></picture></noscript><script type="module">const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1,e.parentNode.parentNode.querySelector("[data-placeholder-image]").style.opacity=0)}}</script></div><p>Written by <strong>chenqijun</strong> <!-- --> </p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/Crithink/typora/Typora active/">← <!-- -->How to active typora</a></li><li></li></ul></nav></main><footer>© <!-- -->2024<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/How to use Git/Git/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+    </span></section><hr/><footer><div class="bio"><div data-gatsby-image-wrapper="" style="width:50px;height:50px" class="gatsby-image-wrapper bio-avatar"><div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#f8f8f8;width:50px;height:50px;position:relative"></div><picture><source type="image/avif" data-srcset="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d4bf4/profile-pic.avif 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" data-srcset="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/3faea/profile-pic.webp 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" data-src="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg" data-srcset="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/64618/profile-pic.jpg 100w" alt="Profile picture"/></picture><noscript><picture><source type="image/avif" srcSet="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d4bf4/profile-pic.avif 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/ee81f/profile-pic.avif 100w" sizes="50px"/><source type="image/webp" srcSet="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/3faea/profile-pic.webp 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/6a679/profile-pic.webp 100w" sizes="50px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="50px" decoding="async" loading="lazy" src="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg" srcSet="/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/d24ee/profile-pic.jpg 50w,/Crithink/static/d4961ad22673da6d03ef598bcb8c518c/64618/profile-pic.jpg 100w" alt="Profile picture"/></picture></noscript><script type="module">const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1,e.parentNode.parentNode.querySelector("[data-placeholder-image]").style.opacity=0)}}</script></div><p>Written by <strong>chenqijun</strong> <!-- --> </p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/Crithink/typora/Typora active/">← <!-- -->How to active typora</a></li><li><a rel="next" href="/Crithink/Some useful tools/utools/">Some useful tools<!-- --> →</a></li></ul></nav></main><footer>© <!-- -->2024<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/How to use Git/Git/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
           <script
             id="gatsby-chunk-mapping"
           >

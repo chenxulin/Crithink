@@ -71,7 +71,8 @@ Receiving objects: <span class="token number">100</span>% <span class="token pun
 <span class="token number">5</span>.把本地项目提交到GitHub上：输入 <span class="token function">git</span> push <span class="token parameter variable">-u</span> orgin master
 
 依次按顺序完成以上步骤，把一个本地项目上传到你准备好的GitHub仓库中了</code></pre></div>
-<p>学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。最后是必不可少（有时可以少）的胡言乱语时刻，我想说的是：<strong>千里之行，始于CV</strong>。</p>
+<p>学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。</p>
+<p>最后是必不可少（有时可以少）的胡言乱语时刻，我想说的是：<strong>千里之行，始于CV</strong>。</p>
 <hr>
 <h4>Git管理文件（以Windows系统为例）</h4>
 <h6>git提交项目到本地仓库</h6>
@@ -114,14 +115,16 @@ Receiving objects: <span class="token number">100</span>% <span class="token pun
 </li>
 </ul>
 <p>现在有必要对上述内容做一个总结，Git对一个项目进行版本控制时，被管理的项目分为工作目录、暂存区、本地仓库，必须先把工作目录添加（git add xxx）到暂存区，再将暂存区的文件提交（git commit -m '注释'）到本地仓库。</p>
+<hr>
+<h6>git命令拾遗</h6>
 <ul>
-<li>
-<p>查看当前状态：</p>
+<li>查看当前状态：</li>
+</ul>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">git</span> status  // 查看当前状态</code></pre></div>
 <p>这条指令十分有用，比如查看暂存区有哪些文件未加到暂存区，哪些文件未提交等。</p>
-</li>
+<ul>
+<li>使用git mv命令修改文件名</li>
 </ul>
-<h6>使用git mv命令修改文件名</h6>
 <hr>
 <h6>Git删除文件与找回文件</h6>
 <ul>

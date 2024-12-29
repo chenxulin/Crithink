@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Dec 2024 10:34:33 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Dec 2024 13:00:30 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
 &lt;p&gt;不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：&lt;a href=&quot;https://www.cutecloud.net/&quot;&gt;https://www.cutecloud.net/&lt;/a&gt; ，这个网站可能需要外网才能访问，也可能不需要，这个看运气。不能直接打开就需要先连接外网再访问，如果直接能打开，就采取以下步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;账号注册和下载安装：账号注册并登录 -&gt; 进入控制台左侧仪表盘，下拉找到客户端下载的位置，有Windows版、Android版等，根据你想下载的版本进行安装，安装完成后进行登录。&lt;/li&gt;
@@ -107,8 +107,9 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 
 依次按顺序完成以上步骤，把一个本地项目上传到你准备好的GitHub仓库中了&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;学会了下载别人项目和上传自己的项目，Git和GitHub的初步使用你已经学会了。现在，你已经是一名合格的Ctrl C + Ctrl V开发者了。最后是必不可少（有时可以少）的胡言乱语时刻，我想说的是：&lt;strong&gt;千里之行，始于CV&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
 &lt;h4&gt;Git管理文件（以Windows系统为例）&lt;/h4&gt;
-&lt;h6&gt;git版本控制&lt;/h6&gt;
+&lt;h6&gt;git基本操作&lt;/h6&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;对项目开始进行版本控制管理&lt;/p&gt;
@@ -134,8 +135,45 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;li&gt;
 &lt;p&gt;将暂存区的文件或目录提交（commit）到本地仓库&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;注释&apos;&lt;/span&gt;  // 将暂存区的文件或者目录全部送到本地仓库&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;git commit -m  &apos;注释&apos; 只是把暂存区的文件或者目录送到了本地仓库，那些还未通过git add 送入暂存区的文件并不会被提交到本地仓库。一次commit会产生一条提交记录，git可以通过这些记录来进行回溯。&lt;/p&gt;
+&lt;p&gt;git commit -m  &apos;注释&apos; 只是把暂存区的文件或者目录送到了本地仓库，那些还未通过git add命令送入暂存区的文件并不会被提交到本地仓库。一次commit会产生一条提交记录，git可以通过这些记录来进行回溯。&lt;/p&gt;
 &lt;p&gt;注释是必要的，不加注释是没法commit的。进行注释可以让其他人知道这些文件进行了什么样的改动。注释内容要求简洁，清晰，有逻辑。&lt;/p&gt;
+&lt;p&gt;并不是必须每次git add xxx之后都使用一次git commit -m &apos;注释&apos;指令立即提交，可以git add xxx然后又跑去开发别的文件，开发好后又使用git add xxx把新开发的文件加入暂存区，然后使用git commit &apos;注释&apos;一起提交。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;那么，究竟什么时候commit呢？
+依作者浅薄的经验来看：
+	&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.完成某一个任务后：大到开发完一整个系统，小到完成某个小功能。
+	&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.下班的时候：虽然可能任务还没完成，但至少先commit今天的进度。
+	&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.你想什么时候提交就什么时候提交。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从项目管理的角度看，第三种方式不是一个好的方式，因为程序世界总是充斥着条理，有个性往往会造成混乱。那么，作者为什么要写上这种commit方式？答：我想写我就写。&lt;del&gt;（我commit后，哪管它洪水滔天）&lt;/del&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;现在有必要对上述内容做一个总结，Git对一个项目进行版本控制时，被管理的项目分为工作目录、暂存区、本地仓库，必须先把工作目录添加（git add xxx）到暂存区，再将暂存区的文件提交（git commit -m &apos;注释&apos;）到本地仓库。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;查看当前状态：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; status  // 查看当前状态&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这条指令十分有用，比如查看暂存区有哪些文件未加到暂存区，哪些文件未提交等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;使用git rm命令删除文件&lt;/li&gt;
+&lt;li&gt;使用git mv命令修改文件名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6&gt;commit记录&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;查看commit记录&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log     // 查看完整commit记录
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; // 精简版commit，一行一条commit记录
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--graph&lt;/span&gt;  // 有点好看的完整commit记录
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--graph&lt;/span&gt; // 既精简又好看的一行commit记录&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;commit记录中包括：一串十六进制数、作者（Author）、时间（Date）、注释。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这串十六进制数姑且看做这条记录的唯一标识好了，虽然可能并不唯一，但不唯一的几率极小。因为不影响使用，感兴趣请自学。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;多分支协作开发&lt;/h2&gt;
@@ -154,7 +192,12 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 /Crithink/static/0175195efbd62bbee5366ef294ef6f25/828fb/inDark.jpg 630w,
 /Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg 720w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
   &lt;/a&gt;
-    &lt;/span&gt;</content:encoded></item><item><title><![CDATA[How to active typora]]></title><description><![CDATA[Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</guid><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora没有采用源代码和预览双栏显示的方式，而是采用&lt;strong&gt;所见即所得&lt;/strong&gt;的编辑方式，实现了&lt;strong&gt;即时预览的功能&lt;/strong&gt;。&lt;/p&gt;
+    &lt;/span&gt;
+&lt;p&gt;有人可能会问，XXX明明是有用的，你为什么不写？怎么可以这样，简直是太邪恶了。&lt;/p&gt;
+&lt;p&gt;答：有用但是不写，说明作者也不会，请自学。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;吾生也有涯，而知也无涯。以有涯随无涯，殆已！&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[How to active typora]]></title><description><![CDATA[Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</guid><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora没有采用源代码和预览双栏显示的方式，而是采用&lt;strong&gt;所见即所得&lt;/strong&gt;的编辑方式，实现了&lt;strong&gt;即时预览的功能&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4&gt;下载&lt;/h4&gt;
 &lt;p&gt;根据你的操作系统从官网下载相应版本的typora，安装到电脑上，想装在哪里装在哪里。&lt;/p&gt;
 &lt;ul&gt;

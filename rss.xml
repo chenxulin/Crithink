@@ -1,23 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Dec 2024 14:54:43 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
-&lt;p&gt;不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：&lt;a href=&quot;https://www.cutecloud.net/&quot;&gt;https://www.cutecloud.net/&lt;/a&gt; ，这个网站可能需要外网才能访问，也可能不需要，这个看运气。不能直接打开就需要先连接外网再访问，如果直接能打开，就采取以下步骤：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;账号注册和下载安装：账号注册并登录 -&gt; 进入控制台左侧仪表盘，下拉找到客户端下载的位置，有Windows版、Android版等，根据你想下载的版本进行安装，安装完成后进行登录。&lt;/li&gt;
-&lt;li&gt;套餐购买：进入控制台购买订阅，分为两种，按月付套餐和永久套餐，不同级别有不同的功能，不做具体介绍。本人购买的是10r/月的，并且本人建议按月购买，因为VPN运营商极容易跑路，至于什么套餐根据自己的需要自行购买。&lt;/li&gt;
-&lt;li&gt;使用：&lt;strong&gt;打开软件界面，点击连接即可使用&lt;/strong&gt;。下面介绍一下首页两个功能，其余功能自行探索。
-&lt;ul&gt;
-&lt;li&gt;切换服务器：有时候某个节点卡顿，就需要切换到网速快的节点。点击切换按钮 -&gt; 延迟测试 -&gt; 选择延迟较小的节点&lt;/li&gt;
-&lt;li&gt;代理模式：分为规则模式和全局模式，规则模式是内网的流量走内网，外网的流量通过代理访问。全局模式是无论什么流量都通过代理访问。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CuteCloud的优势就是VPN运营商直接提供软件，用起来简单方便，劣势就是运营商跑路了这个软件就无法使用了。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当然也可以自行选用其他代理软件，例如：我手机和电脑用的Clash，iPad用的Shadowrocket。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;那么，如果不能直接进入CuteCloud官网，但又需要在Windows电脑上使用用，怎么办呢？按以下步骤进行：&lt;/p&gt;
-&lt;p&gt;1.直接下载这个应用并打开：&lt;a href=&quot;https://wwwccdl.lanzouk.com/ixKPw2hb6rqf&quot;&gt;https://wwwccdl.lanzouk.com/ixKPw2hb6rqf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2.找到一个有账号人，登入他的账号，然后连接，就有外网了。&lt;/p&gt;
-&lt;p&gt;3.连上外网后，就可以进行注册账号、购买套餐、使用等步骤了。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Dec 2024 15:03:08 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 这一块内容原本是有的，...（此处省略原因），故删去。 GPT账号注册和使用 连接好VPN之后，打开ChatGPT网址进行账号注册：https://chatgpt.com/ ，右上角点击注册按钮完成注册。 使用GPT需要google账号/Microsoft账号/Apple…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
+&lt;p&gt;这一块内容原本是有的，...（此处省略原因），故删去。&lt;/p&gt;
 &lt;h2&gt;GPT账号注册和使用&lt;/h2&gt;
 &lt;p&gt;连接好VPN之后，打开ChatGPT网址进行账号注册：&lt;a href=&quot;https://chatgpt.com/&quot;&gt;https://chatgpt.com/&lt;/a&gt; ，右上角点击注册按钮完成注册。&lt;/p&gt;
 &lt;p&gt;使用GPT需要&lt;strong&gt;google账号/Microsoft账号/Apple&lt;/strong&gt;账号三个中至少有其中一个账号，其中Microsoft和Apple账号是在国内容易获得的，Google账号的注册比较麻烦。为了减少麻烦，我推荐用Microsoft账号或者Apple账号，有Windows电脑或iPad的用户肯定是有这两个账号的。注册登录完成后就可以使用了。&lt;/p&gt;
@@ -207,7 +189,7 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;     &lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt; src/test3.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这串十六进制数姑且看做这条记录的唯一标识好了，虽然可能并不唯一，但不唯一的几率极小。因为不影响使用，感兴趣请自学。&lt;/p&gt;
+&lt;p&gt;这串十六进制数姑且看做这条记录的唯一标识好了，虽然可能并不唯一，但不唯一的几率极小。因为不影响使用，如果你对它感兴趣，请自学。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;

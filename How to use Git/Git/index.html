@@ -110,7 +110,7 @@ Receiving objects: <span class="token number">100</span>% <span class="token pun
 	<span class="token number">2</span>.下班的时候：虽然可能任务还没完成，但至少先commit今天的进度。
 	<span class="token number">3</span>.你想什么时候提交就什么时候提交。</code></pre></div>
 <blockquote>
-<p>从项目管理的角度看，第三种方式不是一个好的方式，因为程序世界总是充斥着条理，有个性往往会造成混乱。那么，作者为什么要写上这种commit方式？答：我想写我就写。<del>（我commit后，哪管它洪水滔天）</del></p>
+<p>从项目管理的角度看，第三种方式不是一个好的方式，因为程序世界总是充斥着条理，有个性往往会造成混乱。那么，我为什么要写上这种commit方式？答：我想写我就写。<del>（我commit后，哪管它洪水滔天）</del></p>
 </blockquote>
 </li>
 </ul>
@@ -123,18 +123,46 @@ Receiving objects: <span class="token number">100</span>% <span class="token pun
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">git</span> status  // 查看当前状态</code></pre></div>
 <p>这条指令十分有用，比如查看暂存区有哪些文件未加到暂存区，哪些文件未提交等。</p>
 <ul>
+<li>查看当前目录有哪些文件</li>
+</ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">ls</span> <span class="token parameter variable">-al</span>   // 查看此目录下有什么文件</code></pre></div>
+<ul>
 <li>使用git mv命令修改文件名</li>
 </ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"></code></pre></div>
 <hr>
 <h6>Git删除文件与找回文件</h6>
 <ul>
-<li>
-<p>使用git rm命令删除文件</p>
-</li>
-<li>
-<p>使用git checkout找回删除的文件</p>
-</li>
+<li>rm命令</li>
 </ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">rm</span> 文件名.后缀名   // 删除xx文件，但改动未加入暂存区
+<span class="token function">rm</span> <span class="token parameter variable">-r</span> 目录名      // 删除xx 目录，但改动未加入暂存区</code></pre></div>
+<ul>
+<li>使用git rm命令删除文件</li>
+</ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">git</span> <span class="token function">rm</span> 文件名.后缀名   // 删除xx文件，并将改动加入暂存区
+<span class="token function">git</span> <span class="token function">rm</span> <span class="token parameter variable">-r</span> 目录名      // 删除此目录下的所有文件，并将改动加入暂存区   
+// 删除工作目录中的hello.md文件，并将这个改动加入暂存区，但并未commit
+例如：git <span class="token function">rm</span> hello.md 
+// 删除工作目录中的src目录下的所有文件，并将这个改动加入暂存区，但并未commit
+例如：git <span class="token function">rm</span> <span class="token parameter variable">-r</span> src</code></pre></div>
+<ul>
+<li>使用git checkout找回删除的文件</li>
+</ul>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">// 文件已经删除，但此改动未用git add加入暂存区
+<span class="token function">git</span> checkout 文件名.后缀名   // 把删除的xx文件放回工作目录
+<span class="token function">git</span> checkout <span class="token builtin class-name">.</span>             // 将删除的所有文件放回工作目录</code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">// 文件已经删除，且改动已加入暂存区，但未commit
+
+// 把删除的xx文件的改动撤销,再使用git checkout命令把删除的文件放回工作目录
+<span class="token function">git</span> restore <span class="token parameter variable">--staged</span> 文件名.后缀名 
+// 把删除的xx目录的改动撤销,再使用git checkout命令把删除的目录及目录下的文件放回工作目录
+<span class="token function">git</span> restore <span class="token parameter variable">--staged</span> 目录名
+// 把删除的所有文件的改动撤销,再使用git checkout命令把删除的所有文件放回工作目录
+<span class="token function">git</span> restore <span class="token parameter variable">--staged</span> <span class="token builtin class-name">.</span></code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">// commit记录的回退
+// 文件已经删除，且改动已加入暂存区，并且已经提交
+</code></pre></div>
 <h4>commit记录</h4>
 <ul>
 <li>

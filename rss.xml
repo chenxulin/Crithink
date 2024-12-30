@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Dec 2024 09:50:09 GMT</lastBuildDate><item><title><![CDATA[现代生活之歌]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/modern-life-songs/现代生活之歌/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/modern-life-songs/现代生活之歌/</guid><pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;坐下，衣食无忧的主人&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;坐下，全世界幸福的人&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;满腹的美食已经消化&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;为了后代而斗争！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;旧世界已经牢不可破&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;主人们享福，享福&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;快把那炉火烧得通红&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;家里的宠物才睡得安稳&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;这是无尽的幸福&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;团结起来到明天&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;安那其斯坦呐&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;就一定要实现&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;这是无尽的欢乐&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;团结起来到明天&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;安那其斯坦啊&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;就一定要实现！&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;请选择你的结局&lt;/h3&gt;
-&lt;h6&gt;【烈火焚身】&lt;/h6&gt;
-&lt;p&gt;由于帝国的横征暴敛，民众们走投无路，纷纷拿起了武器。作为旧秩序维护者的你，在这场轰轰烈烈的大革命中，被判处火刑，烈火加身。&lt;/p&gt;
-&lt;h6&gt;【高贵愤怒】&lt;/h6&gt;
-&lt;p&gt;让高贵的愤怒，如波涛般翻滚。公民，拿起你的武器，与暴君作决死的斗争。&lt;/p&gt;
-&lt;h6&gt;【饿死事小】&lt;/h6&gt;
-&lt;p&gt;吃不饱饭，怎么不乖乖躺下饿死呢？不作安安饿殍，效尤奋臂螳螂。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Dec 2024 14:54:43 GMT</lastBuildDate><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：https://www.cutecloud.net…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
 &lt;p&gt;不需要对代理软件进行自定义的，就选用这个，可以减少麻烦。CuteCloud网址：&lt;a href=&quot;https://www.cutecloud.net/&quot;&gt;https://www.cutecloud.net/&lt;/a&gt; ，这个网站可能需要外网才能访问，也可能不需要，这个看运气。不能直接打开就需要先连接外网再访问，如果直接能打开，就采取以下步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;账号注册和下载安装：账号注册并登录 -&gt; 进入控制台左侧仪表盘，下拉找到客户端下载的位置，有Windows版、Android版等，根据你想下载的版本进行安装，安装完成后进行登录。&lt;/li&gt;
@@ -162,7 +139,7 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 	&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.下班的时候：虽然可能任务还没完成，但至少先commit今天的进度。
 	&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.你想什么时候提交就什么时候提交。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;从项目管理的角度看，第三种方式不是一个好的方式，因为程序世界总是充斥着条理，有个性往往会造成混乱。那么，作者为什么要写上这种commit方式？答：我想写我就写。&lt;del&gt;（我commit后，哪管它洪水滔天）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;从项目管理的角度看，第三种方式不是一个好的方式，因为程序世界总是充斥着条理，有个性往往会造成混乱。那么，我为什么要写上这种commit方式？答：我想写我就写。&lt;del&gt;（我commit后，哪管它洪水滔天）&lt;/del&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -175,18 +152,46 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; status  // 查看当前状态&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;这条指令十分有用，比如查看暂存区有哪些文件未加到暂存区，哪些文件未提交等。&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;查看当前目录有哪些文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-al&lt;/span&gt;   // 查看此目录下有什么文件&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;使用git mv命令修改文件名&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;h6&gt;Git删除文件与找回文件&lt;/h6&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;使用git rm命令删除文件&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用git checkout找回删除的文件&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;rm命令&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; 文件名.后缀名   // 删除xx文件，但改动未加入暂存区
+&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-r&lt;/span&gt; 目录名      // 删除xx 目录，但改动未加入暂存区&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;使用git rm命令删除文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; 文件名.后缀名   // 删除xx文件，并将改动加入暂存区
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-r&lt;/span&gt; 目录名      // 删除此目录下的所有文件，并将改动加入暂存区   
+// 删除工作目录中的hello.md文件，并将这个改动加入暂存区，但并未commit
+例如：git &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; hello.md 
+// 删除工作目录中的src目录下的所有文件，并将这个改动加入暂存区，但并未commit
+例如：git &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-r&lt;/span&gt; src&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;使用git checkout找回删除的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;// 文件已经删除，但此改动未用git add加入暂存区
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout 文件名.后缀名   // 把删除的xx文件放回工作目录
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;             // 将删除的所有文件放回工作目录&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;// 文件已经删除，且改动已加入暂存区，但未commit
+
+// 把删除的xx文件的改动撤销,再使用git checkout命令把删除的文件放回工作目录
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore &lt;span class=&quot;token parameter variable&quot;&gt;--staged&lt;/span&gt; 文件名.后缀名 
+// 把删除的xx目录的改动撤销,再使用git checkout命令把删除的目录及目录下的文件放回工作目录
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore &lt;span class=&quot;token parameter variable&quot;&gt;--staged&lt;/span&gt; 目录名
+// 把删除的所有文件的改动撤销,再使用git checkout命令把删除的所有文件放回工作目录
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore &lt;span class=&quot;token parameter variable&quot;&gt;--staged&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;// commit记录的回退
+// 文件已经删除，且改动已加入暂存区，并且已经提交
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4&gt;commit记录&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;

@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 31 Dec 2024 08:18:38 GMT</lastBuildDate><item><title><![CDATA[二零二五，元旦随笔]]></title><description><![CDATA[2024年，结束。今天是2025年的第一天，2025年是很值得一说的一年。
-从现在往前数25年，新世纪刚刚到来，往后数25年，新中国成立已满100年。 到现在为止，总的感受是：
-一. 前2…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2025-new-year/2025-new-year/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2025-new-year/2025-new-year/</guid><pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2024年，结束。今天是2025年的第一天，2025年是很值得一说的一年。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 31 Dec 2024 08:23:40 GMT</lastBuildDate><item><title><![CDATA[二零二五，元旦随笔]]></title><description><![CDATA[2024年，结束。今天是2025年的第一天，2025年是很值得一说的一年。
+从现在往前数25年，新世纪刚刚到来，往后数25年，新中国成立已满100年。 到现在为止，总的感受是： 一. 前2…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/2025-new-year/2025-new-year/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/2025-new-year/2025-new-year/</guid><pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2024年，结束。今天是2025年的第一天，2025年是很值得一说的一年。
 从现在往前数25年，新世纪刚刚到来，往后数25年，新中国成立已满100年。&lt;/p&gt;
-&lt;p&gt;到现在为止，总的感受是：
-一. 前25年主要由家长和老师所共同管理，自己则处于被支配的地位，即使有选择的机会，大多时候也是跟着感觉走。感受并不深刻。
-二. 2025年，走到了这么一个特殊的阶段，即到了开始自己管理自己，自己支配自己的阶段，而且这种管理和支配是建立在已经稍微懂得一些东西的基础上的，而没有完全跟着感觉走或者完全跟着社会观念走。当然肯定会受到这些因素的影响，这一点是无需置疑的。
-三. 二十一世纪的第二个25年是值得期待的，虽然当前的情况并不乐观，至少从就业的形势来说是这样，但是，事物的发展总是会走向它的反面的，等再过几年，可能情况又大不一样了。&lt;/p&gt;
+&lt;p&gt;到现在为止，总的感受是：&lt;/p&gt;
+&lt;p&gt;一. 前25年主要由家长和老师所共同管理，自己则处于被支配的地位，即使有选择的机会，大多时候也是跟着感觉走。感受并不深刻。&lt;/p&gt;
+&lt;p&gt;二. 2025年，走到了这么一个特殊的阶段，即到了开始自己管理自己，自己支配自己的阶段，而且这种管理和支配是建立在已经稍微懂得一些东西的基础上的，而没有完全跟着感觉走或者完全跟着社会观念走。当然肯定会受到这些因素的影响，这一点是无需置疑的。&lt;/p&gt;
+&lt;p&gt;三. 二十一世纪的第二个25年是值得期待的，虽然当前的情况并不乐观，至少从就业的形势来说是这样，但是，事物的发展总是会走向它的反面的，等再过几年，可能情况又大不一样了。&lt;/p&gt;
 &lt;p&gt;与身边的朋友交流，常常总会听到怎么办或者如何是好的声音。我想，要得到一个正确的答案，那是不可能的。平静的生活就这样被迫增添了一丝紧张感，这恐怕也是生活的乐趣之一，是不能够拒绝的。&lt;/p&gt;
 &lt;p&gt;最后，不妨设想一下，2050年会是什么样子呢？那时还会有智能手机和个人电脑吗？无人驾驶普及了吗？人们的生产生活方式有了大的变革吗？这些问题现在恐怕很难给出一个明确的回答。有这么一种感受，那就是，社会的发展往往以一种人们难以理解的方式进行着。未来怎么样，只有天知道。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Some useful tools]]></title><description><![CDATA[VPN 这一块内容原本是有的，...（此处省略原因），故删去。 GPT账号注册和使用 连接好VPN之后，打开ChatGPT网址进行账号注册：https://chatgpt.com/ ，右上角点击注册按钮完成注册。 使用GPT需要google账号/Microsoft账号/Apple…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Some useful tools/utools/</guid><pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VPN&lt;/h2&gt;
 &lt;p&gt;这一块内容原本是有的，...（此处省略原因），故删去。&lt;/p&gt;

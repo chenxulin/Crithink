@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 09 Jan 2025 02:43:28 GMT</lastBuildDate><item><title><![CDATA[人生南北多歧路]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</guid><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;​	回忆了一些从中学时代开始的生活经历，联系到最近的一些材料，想到了一些东西，具体的分析材料不可以展示，但基本的观点如下：&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 09 Jan 2025 09:31:20 GMT</lastBuildDate><item><title><![CDATA[人生南北多歧路]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</guid><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;​	回忆了一些从中学时代开始的生活经历，联系到最近的一些材料，想到了一些东西，具体的分析材料不可以展示，但基本的观点如下：&lt;/p&gt;
 &lt;p&gt;一，朋友关系作为人的社会关系的一种，是阶段性的，不是生来就有的。它也有一个发生、发展，最后逐渐走向消亡过程。这是事物的新陈代谢。更具体的说，是人的社会关系的新陈代谢。&lt;/p&gt;
 &lt;p&gt;二，不同朋友承担的作用是不同的，有的适合交流生活，有的适合交流学习，有的适合交流观点，有的适合交流工作。虽然这些并不完全是互相独立的，但要尽可能保持互相独立。超过了一定的范围，则会导致思想上的混乱。&lt;/p&gt;
 &lt;p&gt;三，朋友关系的发展和变化过程中要不断主动的去干预和调整，不能任由其发展，跟着感觉走，是最容易走错路的。但悲哀的是，人意识到这一点，往往是后知后觉的。&lt;/p&gt;
@@ -130,7 +130,7 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;p&gt;注释是必要的，不加注释是没法commit的。进行注释可以让其他人知道这些文件进行了什么样的改动。注释内容要求简洁，清晰，有逻辑。&lt;/p&gt;
 &lt;p&gt;并不是必须每次git add xxx之后都使用一次git commit -m &apos;注释&apos;指令立即提交，可以git add xxx然后又跑去开发别的文件，开发好后又使用git add xxx把新开发的文件加入暂存区，然后使用git commit &apos;注释&apos;一起提交。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;那么，究竟什么时候commit呢？
-依作者浅薄的经验来看：
+依我浅薄的经验来看：
 	&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.完成某一个任务后：大到开发完一整个系统，小到完成某个小功能。
 	&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;.下班的时候：虽然可能任务还没完成，但至少先commit今天的进度。
 	&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.你想什么时候提交就什么时候提交。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -310,8 +310,8 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 /Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg 720w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-&lt;p&gt;有人可能会问，XXX明明是有用的，你为什么不写？怎么可以这样，简直是太邪恶了。&lt;/p&gt;
-&lt;p&gt;答：有用但是不写，说明作者也不会，请自学。&lt;/p&gt;
+&lt;p&gt;有人可能会问，XXX明明是有用的，你为什么不写？&lt;/p&gt;
+&lt;p&gt;答：有用但是不写，说明我也不会，请自学。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;吾生也有涯，而知也无涯。以有涯随无涯，殆已！&lt;/p&gt;
 &lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[How to active typora]]></title><description><![CDATA[Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/typora/Typora active/</guid><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Typora是一款好用的轻量级markdown编辑器，适用于MacOS、Windows和Linux三种操作系统。与其他Markdown编辑器不同的是，Typora没有采用源代码和预览双栏显示的方式，而是采用&lt;strong&gt;所见即所得&lt;/strong&gt;的编辑方式，实现了&lt;strong&gt;即时预览的功能&lt;/strong&gt;。&lt;/p&gt;

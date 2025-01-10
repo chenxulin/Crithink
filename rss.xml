@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 09 Jan 2025 12:04:26 GMT</lastBuildDate><item><title><![CDATA[人生南北多歧路]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</guid><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;​	回忆了一些从中学时代开始的生活经历，联系到最近的一些材料，想到了一些东西，具体的分析材料不可以展示，但基本的观点如下：&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 10 Jan 2025 08:12:04 GMT</lastBuildDate><item><title><![CDATA[人生南北多歧路]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/re-think friend relationship/re-think friend relationship/</guid><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;​	回忆了一些从中学时代开始的生活经历，联系到最近的一些材料，想到了一些东西，具体的分析材料不可以展示，但基本的观点如下：&lt;/p&gt;
 &lt;p&gt;一，朋友关系作为人的社会关系的一种，是阶段性的，不是生来就有的。它也有一个发生、发展，最后逐渐走向消亡过程。这是事物的新陈代谢。更具体的说，是人的社会关系的新陈代谢。&lt;/p&gt;
 &lt;p&gt;二，不同朋友承担的作用是不同的，有的适合交流生活，有的适合交流学习，有的适合交流观点，有的适合交流工作。虽然这些并不完全是互相独立的，但要尽可能保持互相独立。超过了一定的范围，则会导致思想上的混乱。&lt;/p&gt;
 &lt;p&gt;三，朋友关系的发展和变化过程中要不断主动的去干预和调整，不能任由其发展，跟着感觉走，是最容易走错路的。但悲哀的是，人意识到这一点，往往是后知后觉的。&lt;/p&gt;
@@ -157,10 +157,6 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; 文件名1 文件名2  // 将某文件改名
 // 例如：将hello.md文件改名成world.md，改动会被加入暂存区
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; hello.md world.md&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;git restore指令&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;h6&gt;git删除文件与找回文件&lt;/h6&gt;
 &lt;ul&gt;
@@ -287,20 +283,78 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 &lt;h6&gt;把单个commit拆分成多个commit&lt;/h6&gt;
 &lt;h6&gt;调整commit记录顺序&lt;/h6&gt;
 &lt;h2&gt;多分支协作开发&lt;/h2&gt;
-&lt;p&gt;在实际项目的开发过程中，个人的力量总是有限的，一个大型的项目往往需要多位开发者协作完成，为了使得每位开发者提交代码的过程不至于相互发生冲突而产生混乱，每一位开发者都会在属于自己的分支上进行开发，最后把各自开发的结果合并起来，这就是多分支协作开发。本章节以一种多分支开发规范来介绍多分支协作开发。&lt;/p&gt;
+&lt;p&gt;在实际项目的开发过程中，个人的力量总是有限的，一个大型的项目往往需要多位开发者协作完成，为了使得每位开发者提交代码的过程不至于相互发生冲突而产生混乱，每一位开发者都会在属于自己的分支上进行开发，最后把各自开发的结果合并起来，这就是多分支协作开发。&lt;/p&gt;
 &lt;h6&gt;当前所在分支&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch  // 输出当前在这个项目中有哪些分支
+
+Git会默认设置一个名为master的分支，用*表示当前正在哪个分支上&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h6&gt;更改分支名称&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; 原分支名 新分支名
+
+// 例如更改empire分支的名称改为paper-tiger
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; empire paper-tiger&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h6&gt;新建分支&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch 分支名  
+
+// 例如:新建一个名为cat的分支
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h6&gt;分支切换&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout 分支名
+
+// 切换当前分支到cat分支上
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt;
+
+注：已经改动但未commit，切换分支后，也能将改动直接提交到新分支上。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h6&gt;删除分支&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; 分支名
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-D&lt;/span&gt; 分支名
+
+// 例如：删除名叫cat的分支
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt;
+// 若cat分支上有内容还未合并，-d参数无法将分支删除，改用-D参数即可将其强制删除
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-D&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt;
+
+注：没有什么分支是不能删除的，包括默认的master分支也是能删除的（master分支只是默认的分支，没有其他特别之处）。
+注: 当前在分支A上，不能删除分支A，必须先切换到分支B上，才能对A分支进行删除操作。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h6&gt;合并分支&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;标签&lt;/h2&gt;
+&lt;h6&gt;轻量标签(lightweight tag)&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag 标签名 commit标识号
+
+// 给标识号为51d54ff的commit添加一个名为big_cat的轻量标签
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag big_cat 51d54ff
+
+// 注：如果只使用git tag 标签名 ，但未指定commit标识号，则将会把标签贴在当前所在的commit上&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h6&gt;有附注的标签(annotated tag)&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;// -a参数就是指的是创建有附注的标签， -m指的是需要在后面添加注释
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag 标签名 commit标识号 &lt;span class=&quot;token parameter variable&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;注释&quot;&lt;/span&gt;
+
+// 例如：给标识号为51d54ff的commit添加一个名为big_cat的带附注的标签
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag big_cat 51d54ff &lt;span class=&quot;token parameter variable&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Big Cats are comming!&apos;&lt;/span&gt;
+
+注：有附注的标签主要用作软件版本号，轻量标签则是用于个人使用或者简单标记
+注：有附注标签的好处是可以知道更多关于这张标签的信息，而轻量标签的信息量较少。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h6&gt;查看标签的信息&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; show 标签名   // 查看标签信息
+
+// 例如查看big_cat标签的信息
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; show big_cat
+
+注：轻量标签只有标签指向的那个commit的信息，有附注的标签多了一些信息，包括谁在什么时候贴了这张标签等。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h6&gt;删除标签&lt;/h6&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;不管哪一种标签，其本质都像是一张贴纸，撕掉一张贴纸并不会造成commit或文档不见，只是把这张贴纸撕掉而已。
+
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; 标签名
+
+// 例如：删除名为big_cat的标签
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; big_cat&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;GitHub&lt;/h2&gt;
 &lt;p&gt;本章节介绍GitHub的一些其他功能。&lt;/p&gt;
 &lt;h2&gt;拾遗&lt;/h2&gt;
 &lt;p&gt;上面介绍了作者学习过程中所用到的各种Git操作，拾遗应该写一些不那么重要的内容。&lt;/p&gt;
 &lt;p&gt;但这些内容不学也不影响使用，既然不影响使用，那大概率不写，不，是肯定。&lt;/p&gt;
-&lt;p&gt;因为懒，特么都不影响我使用，我学个鬼，让我继续留在黑暗中吧。&lt;/p&gt;
+&lt;p&gt;因为懒，特么都不影响我使用，我才不学呢，让我继续留在黑暗中吧。&lt;/p&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 91.13924050632912%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAMBAgQF/8QAGAEAAgMAAAAAAAAAAAAAAAAAAgMAAQT/2gAMAwEAAhADEAAAAfFvDCKrBzjIXXYGpf8A/8QAHBAAAgICAwAAAAAAAAAAAAAAAAECERIhIzFB/9oACAEBAAEFArbIrhPMpC2WzJi6/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwFmjn//xAAXEQADAQAAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/AasP/8QAGhAAAgIDAAAAAAAAAAAAAAAAARAAISAiMf/aAAgBAQAGPwKHW8LK6V//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhQWEx4f/aAAgBAQABPyFurvkG7K2HcqpWpGsLcFHIKXleQAwpH6085//aAAwDAQACAAMAAAAQdO/B/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQAQMSH/2gAIAQMBAT8QSPabjs//xAAXEQEBAQEAAAAAAAAAAAAAAAABADEh/9oACAECAQE/EHCHk4WV/8QAHRABAAMAAwADAAAAAAAAAAAAAQARITFRgUGhwf/aAAgBAQABPxA9IqtoG+SxAhxvkH7LYVExJe1i1UVVQgL4N57sy8IvJhoEr4YheztPqz//2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -310,7 +364,7 @@ Receiving objects: &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;% 
 /Crithink/static/0175195efbd62bbee5366ef294ef6f25/80e3c/inDark.jpg 720w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-&lt;p&gt;有人可能会问，XXX明明是有用的，你为什么不写？&lt;/p&gt;
+&lt;p&gt;有人可能会问，XXX明明是有用的，你为什么也不写？&lt;/p&gt;
 &lt;p&gt;答：有用但是不写，说明我也不会，请自学。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;吾生也有涯，而知也无涯。以有涯随无涯，殆已！&lt;/p&gt;
